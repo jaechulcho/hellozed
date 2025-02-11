@@ -6,6 +6,7 @@
 import cv2
 from datetime import datetime
 
+# 소용없는 코드(?)
 # os.environ["XGD_SESSION_TYPE"] = "xcb"
 # os.environ["QT_QPA_PLATFORM"] = "xcb"
 
