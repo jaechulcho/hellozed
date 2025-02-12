@@ -2,13 +2,13 @@
 
 """cam_capture_opencv.py"""
 
-# import os
+import os
 import cv2
 from datetime import datetime
 
-# 소용없는 코드(?)
-# os.environ["XGD_SESSION_TYPE"] = "xcb"
-# os.environ["QT_QPA_PLATFORM"] = "xcb"
+# 소용 있는 코드 임. 버그 수정.
+os.environ["XDG_SESSION_TYPE"] = "xcb"
+os.environ["QT_QPA_PLATFORM"] = "xcb"
 
 # W, H = 320, 240
 
